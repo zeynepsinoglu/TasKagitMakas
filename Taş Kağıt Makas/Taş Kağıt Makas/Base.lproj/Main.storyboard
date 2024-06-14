@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VZw-th-krj">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--TAŞ KAĞIT MAKAS OYUNU-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tas__Kag_ıt_Makas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Siz " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPE-ku-qlD">
+                                <rect key="frame" x="70" y="123" width="27.333333333333329" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="geQ-Zr-EHh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bilgisayar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygc-vu-tcQ">
+                                <rect key="frame" x="250.33333333333334" y="123" width="72.666666666666657" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="KaO-RM-i1C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQU-Ye-egU">
+                                <rect key="frame" x="60" y="163" width="0.0" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Dyk-l2-Q3o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwm-lz-H7r">
+                                <rect key="frame" x="308" y="163" width="0.0" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="B1l-aK-9ta"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sizin Seçiminiz:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neq-Wm-fVH">
+                                <rect key="frame" x="60" y="451" width="118" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bilgisayarın Seçimi:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GxP-I7-bPt">
+                                <rect key="frame" x="59.999999999999986" y="496.33333333333331" width="145.66666666666663" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXJ-y4-NNL">
+                                <rect key="frame" x="188" y="471.66666666666669" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Blo-8c-U6d">
+                                <rect key="frame" x="215.66666666666666" y="496.66666666666669" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zbb-k5-e3F">
+                                <rect key="frame" x="70" y="576.66666666666663" width="253" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="NAb-gl-FbW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFf-hM-tfQ">
+                                <rect key="frame" x="16" y="277" width="95" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="3mF-aO-U87"/>
+                                    <constraint firstAttribute="width" constant="95" id="Ax1-vX-feh"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="tas">
+                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tasButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VpC-19-Ljy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ZG-VO-irl">
+                                <rect key="frame" x="149" y="275" width="95" height="80"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="kagıt">
+                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="kagitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b6S-Kf-6Wd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Boe-oH-fpv">
+                                <rect key="frame" x="282" y="276" width="95" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="d3L-h2-Yu8"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="makas">
+                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="makasButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LkM-K0-qKB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taş" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqU-L4-am5">
+                                <rect key="frame" x="28" y="378" width="69" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="Qf2-oR-0TG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kağıt" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7wq-ff-33J">
+                                <rect key="frame" x="160" y="377" width="69" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Makas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZM-UO-KR0">
+                                <rect key="frame" x="295" y="377" width="69" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CZM-UO-KR0" secondAttribute="trailing" constant="29" id="10m-Db-Wp6"/>
+                            <constraint firstItem="jqU-L4-am5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="11r-Oh-snV"/>
+                            <constraint firstItem="GxP-I7-bPt" firstAttribute="top" secondItem="neq-Wm-fVH" secondAttribute="bottom" constant="25" id="1hU-CU-QxO"/>
+                            <constraint firstItem="CZM-UO-KR0" firstAttribute="top" secondItem="Boe-oH-fpv" secondAttribute="bottom" constant="21" id="20d-sM-P6H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zbb-k5-e3F" secondAttribute="trailing" constant="70" id="56R-eq-NSb"/>
+                            <constraint firstItem="neq-Wm-fVH" firstAttribute="baseline" secondItem="DXJ-y4-NNL" secondAttribute="baseline" id="6Fi-qc-ULN"/>
+                            <constraint firstItem="jqU-L4-am5" firstAttribute="top" secondItem="NFf-hM-tfQ" secondAttribute="bottom" constant="21" id="7pf-8K-dkA"/>
+                            <constraint firstItem="Boe-oH-fpv" firstAttribute="top" secondItem="bwm-lz-H7r" secondAttribute="bottom" constant="68" id="Ar2-KP-Wlf"/>
+                            <constraint firstItem="CPE-ku-qlD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="EOu-my-4dz"/>
+                            <constraint firstItem="DXJ-y4-NNL" firstAttribute="leading" secondItem="neq-Wm-fVH" secondAttribute="trailing" constant="10" id="EhX-IT-GeK"/>
+                            <constraint firstItem="Zbb-k5-e3F" firstAttribute="top" secondItem="GxP-I7-bPt" secondAttribute="bottom" constant="60" id="FjL-EO-0Ha"/>
+                            <constraint firstItem="7wq-ff-33J" firstAttribute="baseline" secondItem="CZM-UO-KR0" secondAttribute="baseline" id="Fz4-11-WHc"/>
+                            <constraint firstItem="bwm-lz-H7r" firstAttribute="top" secondItem="ygc-vu-tcQ" secondAttribute="bottom" constant="20" id="PIA-33-uGU"/>
+                            <constraint firstItem="NFf-hM-tfQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="U7R-i7-eFU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ygc-vu-tcQ" secondAttribute="trailing" constant="70" id="WE8-vs-ud0"/>
+                            <constraint firstItem="7wq-ff-33J" firstAttribute="leading" secondItem="jqU-L4-am5" secondAttribute="trailing" constant="63" id="WHO-mU-Uc8"/>
+                            <constraint firstItem="pQU-Ye-egU" firstAttribute="top" secondItem="CPE-ku-qlD" secondAttribute="bottom" constant="20" id="XhI-pd-rHk"/>
+                            <constraint firstItem="CPE-ku-qlD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="bzi-Ry-DDh"/>
+                            <constraint firstItem="neq-Wm-fVH" firstAttribute="top" secondItem="NFf-hM-tfQ" secondAttribute="bottom" constant="94" id="cFY-ds-bgR"/>
+                            <constraint firstItem="Boe-oH-fpv" firstAttribute="leading" secondItem="2ZG-VO-irl" secondAttribute="trailing" constant="38" id="cVp-AP-ZLa"/>
+                            <constraint firstItem="2ZG-VO-irl" firstAttribute="leading" secondItem="NFf-hM-tfQ" secondAttribute="trailing" constant="38" id="cxg-gT-CR1"/>
+                            <constraint firstItem="CZM-UO-KR0" firstAttribute="centerX" secondItem="Boe-oH-fpv" secondAttribute="centerX" id="dnp-Sv-ksS"/>
+                            <constraint firstItem="Blo-8c-U6d" firstAttribute="top" secondItem="DXJ-y4-NNL" secondAttribute="bottom" constant="25" id="hYj-o5-ZOb"/>
+                            <constraint firstItem="ygc-vu-tcQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="jgG-8c-wbq"/>
+                            <constraint firstItem="Blo-8c-U6d" firstAttribute="leading" secondItem="GxP-I7-bPt" secondAttribute="trailing" constant="10" id="mHP-mK-bb1"/>
+                            <constraint firstItem="pQU-Ye-egU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="mzC-xD-98P"/>
+                            <constraint firstItem="NFf-hM-tfQ" firstAttribute="top" secondItem="pQU-Ye-egU" secondAttribute="bottom" constant="69" id="q0d-Gk-Jy1"/>
+                            <constraint firstItem="CZM-UO-KR0" firstAttribute="leading" secondItem="7wq-ff-33J" secondAttribute="trailing" constant="66" id="q9h-pc-Pfl"/>
+                            <constraint firstItem="neq-Wm-fVH" firstAttribute="top" secondItem="2ZG-VO-irl" secondAttribute="bottom" constant="96" id="qD7-8f-k5z"/>
+                            <constraint firstItem="Zbb-k5-e3F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="qN8-hD-Dcw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bwm-lz-H7r" secondAttribute="trailing" constant="85" id="rIB-Dv-gb4"/>
+                            <constraint firstItem="GxP-I7-bPt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="raa-S2-jlY"/>
+                            <constraint firstItem="Boe-oH-fpv" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="s4h-lM-w62"/>
+                            <constraint firstItem="2ZG-VO-irl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="172" id="ueI-e5-FG9"/>
+                            <constraint firstItem="2ZG-VO-irl" firstAttribute="centerX" secondItem="Zbb-k5-e3F" secondAttribute="centerX" id="vrZ-Li-d5h"/>
+                            <constraint firstItem="neq-Wm-fVH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="wut-iz-oO9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="TAŞ KAĞIT MAKAS OYUNU" id="Clr-NY-n4Q"/>
+                    <connections>
+                        <outlet property="myChoice" destination="DXJ-y4-NNL" id="4hX-I9-ODs"/>
+                        <outlet property="myScor" destination="pQU-Ye-egU" id="tEf-00-a2B"/>
+                        <outlet property="pcChoice" destination="Blo-8c-U6d" id="p9y-Tv-Y2n"/>
+                        <outlet property="pcScor" destination="bwm-lz-H7r" id="C6d-JF-Tjo"/>
+                        <outlet property="theEnd" destination="Zbb-k5-e3F" id="uLW-PE-5JK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="991.60305343511448" y="-27.464788732394368"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7Fz-EO-Xsz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VZw-th-krj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H7P-Ks-fSq">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7ZV-Mv-a55"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gou-pM-DGc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64.885496183206101" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kagıt" width="75.666664123535156" height="74"/>
+        <image name="makas" width="75" height="75"/>
+        <image name="tas" width="75" height="75"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
